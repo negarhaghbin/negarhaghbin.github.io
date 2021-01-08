@@ -256,6 +256,23 @@ a:active {
     border-bottom: 1px solid var(--border-color);
 }
 
+.info {
+    margin: 1em;
+}
+
+.post .post-footer .meta .info {
+    float: left;
+    font-size: 12px;
+    margin-bottom: 1em;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.post .post-footer .meta {
+    max-width: 100%;
+    display: flex;
+    color: #bbb;
+}
+
 .footer {
     clear: both;
     text-align: center;
